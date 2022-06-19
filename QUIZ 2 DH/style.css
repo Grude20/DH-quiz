@@ -1,0 +1,55 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: #0000ff;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(325%);
+}
+
+section {
+    height: 90vh;
+
+    position: relative;
+}
+
+.frågor {
+    border: 10px solid #fff;
+    border-radius: 30%;
+    background: #fff;
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+  width: 200px;
+  height: 100px;
+  font-size: 25px;
+  background: rgb(19, 16, 211);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+h3 {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
